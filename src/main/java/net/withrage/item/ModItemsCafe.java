@@ -1,0 +1,48 @@
+package net.withrage.item;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.util.Identifier;
+import net.withrage.CozyCafe;
+
+public class ModItemsCafe {
+
+    public static final Item APPLE_JUICE = registerItem("apple_juice", new Item(new FabricItemSettings()));
+    public static final Item APPLE_PIE = registerItem("apple_pie", new Item(new FabricItemSettings()));
+    public static final Item BERRY_CUPCAKE = registerItem("berry_cupcake", new Item(new FabricItemSettings()));
+    public static final Item CHICKEN_MUSHROOM_PIE = registerItem("chicken_mushroom_pie", new Item(new FabricItemSettings()));
+    public static final Item CHIPS = registerItem("chips", new Item(new FabricItemSettings()));
+    public static final Item CHOCOLATE_CUPCAKE = registerItem("chocolate_cupcake", new Item(new FabricItemSettings()));
+    public static final Item CHOCOLATE_DONUT = registerItem("chocolate_donut", new Item(new FabricItemSettings()));
+    public static final Item CHOCOLATE_MILK = registerItem("chocolate_milk", new Item(new FabricItemSettings()));
+    public static final Item CROISSANT = registerItem("croissant", new Item(new FabricItemSettings()));
+    public static final Item FILLED_DONUT = registerItem("filled_donut", new Item(new FabricItemSettings()));
+    public static final Item FRIES = registerItem("fries", new Item(new FabricItemSettings()));
+    public static final Item GILDED_MELONADE = registerItem("gilded_melonade", new Item(new FabricItemSettings()));
+    public static final Item GLOWBERRY_DONUT = registerItem("glowberry_donut", new Item(new FabricItemSettings()));
+    public static final Item GLOWBERRY_ICE_CREAM = registerItem("glowberry_ice_cream", new Item(new FabricItemSettings()));
+    public static final Item GLOWBERRY_JUICE = registerItem("glowberry_juice", new Item(new FabricItemSettings()));
+    public static final Item GLOWBERRY_PIE = registerItem("glowberry_pie", new Item(new FabricItemSettings()));
+    public static final Item MELONADE = registerItem("melonade", new Item(new FabricItemSettings()));
+    public static final Item MERINGUE = registerItem("meringue", new Item(new FabricItemSettings()));
+    public static final Item MILK_BREAD = registerItem("milk_bread", new Item(new FabricItemSettings()));
+    public static final Item NUHTELLA_ICE_CREAM = registerItem("nuhtella_ice_cream", new Item(new FabricItemSettings()));
+    public static final Item POT_PIE = registerItem("pot_pie", new Item(new FabricItemSettings()));
+    public static final Item PRETZEL = registerItem("pretzel", new Item(new FabricItemSettings()));
+    public static final Item SUGAR_DONUT = registerItem("sugar_donut", new Item(new FabricItemSettings()));
+    public static final Item SWEETBERRY_DONUT = registerItem("sweetberry_donut", new Item(new FabricItemSettings()));
+    public static final Item SWEETBERRY_ICE_CREAM = registerItem("sweetberry_ice_cream", new Item(new FabricItemSettings()));
+    public static final Item SWEETBERRY_JUICE = registerItem("sweetberry_juice", new Item(new FabricItemSettings()));
+    public static final Item SWEETBERRY_PIE = registerItem("sweetberry_pie", new Item(new FabricItemSettings()));
+    public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new FabricItemSettings()));
+
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);
+    }
+
+    public static void registerModItems() {
+        CozyCafe.LOGGER.info("Registering Mod Items for " + CozyCafe.MOD_ID);
+    }
+}
