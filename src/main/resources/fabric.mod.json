@@ -8,11 +8,11 @@
 		"JustErikSK, Satorisek, With Rage Studios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/ : CHANGE THIS LATER",
-		"sources": "https://github.com/FabricMC/fabric-example-mod : CHANGE THIS LATER"
+		"homepage": "https://modrinth.com/mod/cozy-cafe-mod",
+		"sources": "https://github.com/JustErikSK/CozyCafe-Mod"
 	},
 	"license": "MIT",
-	"icon": "assets/cozycafe/icon.png : CHANGE THIS LATER",
+	"icon": "assets/cozycafe/cozycafe_mod-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -32,9 +32,7 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+		"cozyingredients": ">=1.0.0"
 	}
 }
