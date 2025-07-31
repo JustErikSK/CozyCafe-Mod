@@ -23,7 +23,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.CHOCOLATE_DONUT);
                         entries.add(ModItemsCafe.CHOCOLATE_MILK);
                         entries.add(ModItemsCafe.CROISSANT);
-                        entries.add(ModItemsCafe.FILLED_DONUT);
+                        entries.add(ModItemsCafe.JELLY_DONUT);
                         entries.add(ModItemsCafe.FRIES);
                         entries.add(ModItemsCafe.GILDED_MELONADE);
                         entries.add(ModItemsCafe.GLOWBERRY_DONUT);

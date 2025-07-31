@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cozycafe:item/filled_donut"
+    "layer0": "cozycafe:item/jelly_donut"
   }
 }
