@@ -4,7 +4,7 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
-public class ModFoodComponents {
+public class ModFoodComponentsCafe {
     public static final FoodComponent APPLE_JUICE = new FoodComponent.Builder()
             .hunger(6)
             .saturationModifier(0.3f)
