@@ -17,7 +17,6 @@ public class ModItemsCafe {
     public static final Item CHOCOLATE_CUPCAKE = registerItem("chocolate_cupcake", new Item(new FabricItemSettings()));
     public static final Item CHOCOLATE_DONUT = registerItem("chocolate_donut", new Item(new FabricItemSettings()));
     public static final Item CHOCOLATE_MILK = registerItem("chocolate_milk", new Item(new FabricItemSettings()));
-    public static final Item CROISSANT = registerItem("croissant", new Item(new FabricItemSettings()));
     public static final Item JELLY_DONUT = registerItem("jelly_donut", new Item(new FabricItemSettings()));
     public static final Item FRIES = registerItem("fries", new Item(new FabricItemSettings()));
     public static final Item GILDED_MELONADE = registerItem("gilded_melonade", new Item(new FabricItemSettings()));

@@ -15,33 +15,32 @@ public class ModItemGroupsCafe {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cozycafe"))
                     .icon(() -> new ItemStack(ModItemsCafe.APPLE_JUICE)).entries((displayContext, entries) -> {
                         entries.add(ModItemsCafe.APPLE_JUICE);
+                        entries.add(ModItemsCafe.SWEETBERRY_JUICE);
+                        entries.add(ModItemsCafe.GLOWBERRY_JUICE);
+                        entries.add(ModItemsCafe.MELONADE);
+                        entries.add(ModItemsCafe.GILDED_MELONADE);
+                        entries.add(ModItemsCafe.JELLY_DONUT);
+                        entries.add(ModItemsCafe.SUGAR_DONUT);
+                        entries.add(ModItemsCafe.GLOWBERRY_DONUT);
+                        entries.add(ModItemsCafe.SWEETBERRY_DONUT);
+                        entries.add(ModItemsCafe.CHOCOLATE_DONUT);
                         entries.add(ModItemsCafe.APPLE_PIE);
+                        entries.add(ModItemsCafe.GLOWBERRY_PIE);
+                        entries.add(ModItemsCafe.SWEETBERRY_PIE);
+                        entries.add(ModItemsCafe.GLOWBERRY_ICE_CREAM);
+                        entries.add(ModItemsCafe.SWEETBERRY_ICE_CREAM);
+                        entries.add(ModItemsCafe.VANILLA_ICE_CREAM);
+                        entries.add(ModItemsCafe.NUHTELLA_ICE_CREAM);
                         entries.add(ModItemsCafe.BERRY_CUPCAKE);
+                        entries.add(ModItemsCafe.CHOCOLATE_CUPCAKE);
+                        entries.add(ModItemsCafe.CHOCOLATE_MILK);
+                        entries.add(ModItemsCafe.MILK_BREAD);
+                        entries.add(ModItemsCafe.POT_PIE);
                         entries.add(ModItemsCafe.CHICKEN_MUSHROOM_PIE);
                         entries.add(ModItemsCafe.CHIPS);
-                        entries.add(ModItemsCafe.CHOCOLATE_CUPCAKE);
-                        entries.add(ModItemsCafe.CHOCOLATE_DONUT);
-                        entries.add(ModItemsCafe.CHOCOLATE_MILK);
-                        entries.add(ModItemsCafe.CROISSANT);
-                        entries.add(ModItemsCafe.JELLY_DONUT);
                         entries.add(ModItemsCafe.FRIES);
-                        entries.add(ModItemsCafe.GILDED_MELONADE);
-                        entries.add(ModItemsCafe.GLOWBERRY_DONUT);
-                        entries.add(ModItemsCafe.GLOWBERRY_ICE_CREAM);
-                        entries.add(ModItemsCafe.GLOWBERRY_JUICE);
-                        entries.add(ModItemsCafe.GLOWBERRY_PIE);
-                        entries.add(ModItemsCafe.MELONADE);
-                        entries.add(ModItemsCafe.MERINGUE);
-                        entries.add(ModItemsCafe.MILK_BREAD);
-                        entries.add(ModItemsCafe.NUHTELLA_ICE_CREAM);
-                        entries.add(ModItemsCafe.POT_PIE);
                         entries.add(ModItemsCafe.PRETZEL);
-                        entries.add(ModItemsCafe.SUGAR_DONUT);
-                        entries.add(ModItemsCafe.SWEETBERRY_DONUT);
-                        entries.add(ModItemsCafe.SWEETBERRY_ICE_CREAM);
-                        entries.add(ModItemsCafe.SWEETBERRY_JUICE);
-                        entries.add(ModItemsCafe.SWEETBERRY_PIE);
-                        entries.add(ModItemsCafe.VANILLA_ICE_CREAM);
+                        entries.add(ModItemsCafe.MERINGUE);
                     }).build());
 
     public static void registerItemGroups() {
