@@ -161,4 +161,56 @@ public class ModFoodComponentsCafe {
             .hunger(7)
             .saturationModifier(0.4f)
             .build();
+
+    // Below are new items, modifiers will be changed later
+
+    public static final FoodComponent BOLOGNA_AND_CREAM_CHEESE_TOAST = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent BREAKFAST_BURGER = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent BUTTER_COOKIE = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent EGG_TOAST = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent ENCHANTED_GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent HAM_AND_CHEESE_SANDWICH = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent NUHTELLA_TOAST = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent TOAST_WITH_BUTTER = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent TOAST_WITH_JAM = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
 }

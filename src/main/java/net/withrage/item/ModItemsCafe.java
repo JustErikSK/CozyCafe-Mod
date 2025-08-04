@@ -36,6 +36,16 @@ public class ModItemsCafe {
     public static final Item SWEETBERRY_JUICE = registerItem("sweetberry_juice", new DrinkItem(new FabricItemSettings().food(ModFoodComponentsCafe.SWEETBERRY_JUICE)));
     public static final Item SWEETBERRY_PIE = registerItem("sweetberry_pie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SWEETBERRY_PIE)));
     public static final Item VANILLA_ICE_CREAM = registerItem("vanilla_ice_cream", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.VANILLA_ICE_CREAM)));
+    public static final Item BOLOGNA_AND_CREAM_CHEESE_TOAST = registerItem("bologna_and_cream_cheese_toast", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BOLOGNA_AND_CREAM_CHEESE_TOAST)));
+    public static final Item BREAKFAST_BURGER = registerItem("breakfast_burger", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BREAKFAST_BURGER)));
+    public static final Item BUTTER_COOKIE = registerItem("butter_cookie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BUTTER_COOKIE)));
+    public static final Item EGG_TOAST = registerItem("egg_toast", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.EGG_TOAST)));
+    public static final Item ENCHANTED_GOLDEN_APPLE_JUICE = registerItem("enchanted_golden_apple_juice", new EnchantedGoldenAppleJuiceItem(new FabricItemSettings().food(ModFoodComponentsCafe.ENCHANTED_GOLDEN_APPLE_JUICE)));
+    public static final Item GOLDEN_APPLE_JUICE = registerItem("golden_apple_juice", new DrinkItem(new FabricItemSettings().food(ModFoodComponentsCafe.GOLDEN_APPLE_JUICE)));
+    public static final Item HAM_AND_CHEESE_SANDWICH = registerItem("ham_and_cheese_sandwich", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.HAM_AND_CHEESE_SANDWICH)));
+    public static final Item NUHTELLA_TOAST = registerItem("nuhtella_toast", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.NUHTELLA_TOAST)));
+    public static final Item TOAST_WITH_BUTTER = registerItem("toast_with_butter", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.TOAST_WITH_BUTTER)));
+    public static final Item TOAST_WITH_JAM = registerItem("toast_with_jam", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.TOAST_WITH_JAM)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);

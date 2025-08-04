@@ -26,6 +26,16 @@
   "item.cozycafe.sweetberry_juice": "Sweetberry Juice",
   "item.cozycafe.sweetberry_pie": "Sweetberry Pie",
   "item.cozycafe.vanilla_ice_cream": "Vanilla Ice Cream",
+  "item.cozycafe.bologna_and_cream_cheese_toast": "Bologna & Cream Cheese Toast",
+  "item.cozycafe.breakfast_burger": "Breakfast Burger",
+  "item.cozycafe.butter_cookie": "Butter Cookie",
+  "item.cozycafe.egg_toast": "Egg Toast",
+  "item.cozycafe.enchanted_golden_apple_juice": "Enchanted Golden Apple Juice",
+  "item.cozycafe.golden_apple_juice": "Golden Apple Juice",
+  "item.cozycafe.ham_and_cheese_sandwich": "Ham & Cheese Sandwich",
+  "item.cozycafe.nuhtella_toast": "Nuhtella Toast",
+  "item.cozycafe.toast_with_butter": "Toast with Butter",
+  "item.cozycafe.toast_with_jam": "Toast with Jam",
 
   "itemgroup.cozycafe":"Cozy Café"
 }

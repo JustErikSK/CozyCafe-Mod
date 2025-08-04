@@ -17,6 +17,8 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.APPLE_JUICE);
                         entries.add(ModItemsCafe.SWEETBERRY_JUICE);
                         entries.add(ModItemsCafe.GLOWBERRY_JUICE);
+                        entries.add(ModItemsCafe.GOLDEN_APPLE_JUICE);
+                        entries.add(ModItemsCafe.ENCHANTED_GOLDEN_APPLE_JUICE);
                         entries.add(ModItemsCafe.MELONADE);
                         entries.add(ModItemsCafe.GILDED_MELONADE);
                         entries.add(ModItemsCafe.JELLY_DONUT);
@@ -24,6 +26,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.GLOWBERRY_DONUT);
                         entries.add(ModItemsCafe.SWEETBERRY_DONUT);
                         entries.add(ModItemsCafe.CHOCOLATE_DONUT);
+                        entries.add(ModItemsCafe.BUTTER_COOKIE);
                         entries.add(ModItemsCafe.APPLE_PIE);
                         entries.add(ModItemsCafe.GLOWBERRY_PIE);
                         entries.add(ModItemsCafe.SWEETBERRY_PIE);
@@ -37,6 +40,13 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.MILK_BREAD);
                         entries.add(ModItemsCafe.POT_PIE);
                         entries.add(ModItemsCafe.CHICKEN_MUSHROOM_PIE);
+                        entries.add(ModItemsCafe.BREAKFAST_BURGER);
+                        entries.add(ModItemsCafe.TOAST_WITH_BUTTER);
+                        entries.add(ModItemsCafe.TOAST_WITH_JAM);
+                        entries.add(ModItemsCafe.BOLOGNA_AND_CREAM_CHEESE_TOAST);
+                        entries.add(ModItemsCafe.EGG_TOAST);
+                        entries.add(ModItemsCafe.NUHTELLA_TOAST);
+                        entries.add(ModItemsCafe.HAM_AND_CHEESE_SANDWICH);
                         entries.add(ModItemsCafe.CHIPS);
                         entries.add(ModItemsCafe.FRIES);
                         entries.add(ModItemsCafe.PRETZEL);
