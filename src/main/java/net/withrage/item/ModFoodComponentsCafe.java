@@ -213,4 +213,19 @@ public class ModFoodComponentsCafe {
             .hunger(7)
             .saturationModifier(0.4f)
             .build();
+
+    public static final FoodComponent BROWNIE = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent WAFFLE_WITH_CHOCOLATE_SYRUP = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent WAFFLE_WITH_FRUIT_SYRUP = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
 }

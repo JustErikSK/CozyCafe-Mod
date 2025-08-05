@@ -27,9 +27,12 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.SWEETBERRY_DONUT);
                         entries.add(ModItemsCafe.CHOCOLATE_DONUT);
                         entries.add(ModItemsCafe.BUTTER_COOKIE);
+                        entries.add(ModItemsCafe.BROWNIE);
                         entries.add(ModItemsCafe.APPLE_PIE);
                         entries.add(ModItemsCafe.GLOWBERRY_PIE);
                         entries.add(ModItemsCafe.SWEETBERRY_PIE);
+                        entries.add(ModItemsCafe.WAFFLE_WITH_FRUIT_SYRUP);
+                        entries.add(ModItemsCafe.WAFFLE_WITH_CHOCOLATE_SYRUP);
                         entries.add(ModItemsCafe.GLOWBERRY_ICE_CREAM);
                         entries.add(ModItemsCafe.SWEETBERRY_ICE_CREAM);
                         entries.add(ModItemsCafe.VANILLA_ICE_CREAM);
