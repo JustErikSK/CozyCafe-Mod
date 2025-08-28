@@ -54,6 +54,12 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.FRIES);
                         entries.add(ModItemsCafe.PRETZEL);
                         entries.add(ModItemsCafe.MERINGUE);
+                        entries.add(ModItemsCafe.BLUE_JELLY);
+                        entries.add(ModItemsCafe.GREEN_JELLY);
+                        entries.add(ModItemsCafe.ORANGE_JELLY);
+                        entries.add(ModItemsCafe.PINK_JELLY);
+                        entries.add(ModItemsCafe.PURPLE_JELLY);
+                        entries.add(ModItemsCafe.YELLOW_JELLY);
                     }).build());
 
     public static void registerItemGroups() {

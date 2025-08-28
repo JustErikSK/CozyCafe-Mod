@@ -39,6 +39,12 @@
   "item.cozycafe.brownie": "Brownie",
   "item.cozycafe.waffle_with_chocolate_syrup": "Waffle with Chocolate Syrup",
   "item.cozycafe.waffle_with_fruit_syrup": "Waffle with Fruit Syrup",
+  "item.cozycafe.blue_jelly": "Blue Jelly",
+  "item.cozycafe.green_jelly": "Green Jelly",
+  "item.cozycafe.orange_jelly": "Orange Jelly",
+  "item.cozycafe.pink_jelly": "Pink Jelly",
+  "item.cozycafe.purple_jelly": "Purple Jelly",
+  "item.cozycafe.yellow_jelly": "Yellow Jelly",
 
   "itemgroup.cozycafe":"Cozy Café"
 }
