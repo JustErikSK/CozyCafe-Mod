@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    " B ",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "cozyingredients:toast"
+    },
+    "B": {
+      "item": "cozyingredients:nuhtella"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:nuhtella_toast",
+    "count": 1
+  }
+}

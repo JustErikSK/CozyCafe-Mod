@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:glass_of_water"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "cozyingredients:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:enchanted_golden_apple_juice",
+    "count": 1
+  }
+}

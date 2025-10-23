@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "BC",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "cozyingredients:toast"
+    },
+    "B": {
+      "item": "cozyingredients:bologna"
+    },
+    "C": {
+      "item": "cozyingredients:cream_cheese"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:bologna_and_cream_cheese_toast",
+    "count": 1
+  }
+}

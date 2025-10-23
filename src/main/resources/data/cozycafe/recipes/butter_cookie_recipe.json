@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:cookie_cutter"
+    },
+    {
+      "item": "cozyingredients:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:butter_cookie",
+    "count": 1
+  }
+}
