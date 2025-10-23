@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:apple_pie",
+    "count": 1
+  }
+}

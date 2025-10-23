@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:flour"
+    },
+    {
+      "item": "cozyingredients:milk_box"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "cozycafe:berries"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:berry_cupcake",
+    "count": 4
+  }
+}

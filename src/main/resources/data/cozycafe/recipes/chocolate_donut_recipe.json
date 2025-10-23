@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:pan"
+    },
+    {
+      "item": "cozyingredients:cookie_cutter"
+    },
+    {
+      "item": "cozyingredients:chocolate_syrup"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:chocolate_donut",
+    "count": 1
+  }
+}
