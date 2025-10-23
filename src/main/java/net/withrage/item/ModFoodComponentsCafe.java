@@ -130,7 +130,7 @@ public class ModFoodComponentsCafe {
             .snack()
             .build();
 
-    public static final FoodComponent SUGAR_DONUT = new FoodComponent.Builder()
+    public static final FoodComponent GLAZED_DONUT = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(0.5f)
             .build();

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:whipped_cream"
+    },
+    {
+      "item": "cozyingredients:milk_box"
+    },
+    {
+      "item": "cozyingredients:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:milk_bread",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "tag": "cozyingredients:minced_meat"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:salt"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:pot_pie",
+    "count": 1
+  }
+}

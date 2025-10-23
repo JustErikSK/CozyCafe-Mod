@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "ABC",
+    " D ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ice"
+    },
+    "B": {
+      "item": "cozyingredients:whipped_cream"
+    },
+    "C": {
+      "item": "minecraft:nuhtella"
+    },
+    "D": {
+      "item": "cozyingredients:ice_cream_cone"
+    }
+  },
+  "result": {
+    "item": "cozyingredients:nuhtella_ice_cream",
+    "count": 1
+  }
+}

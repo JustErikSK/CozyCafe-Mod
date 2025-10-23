@@ -30,7 +30,7 @@ public class ModItemsCafe {
     public static final Item NUHTELLA_ICE_CREAM = registerItem("nuhtella_ice_cream", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.NUHTELLA_ICE_CREAM)));
     public static final Item POT_PIE = registerItem("pot_pie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.POT_PIE)));
     public static final Item PRETZEL = registerItem("pretzel", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PRETZEL)));
-    public static final Item SUGAR_DONUT = registerItem("sugar_donut", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SUGAR_DONUT)));
+    public static final Item GLAZED_DONUT = registerItem("glazed_donut", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GLAZED_DONUT)));
     public static final Item SWEETBERRY_DONUT = registerItem("sweetberry_donut", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SWEETBERRY_DONUT)));
     public static final Item SWEETBERRY_ICE_CREAM = registerItem("sweetberry_ice_cream", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SWEETBERRY_ICE_CREAM)));
     public static final Item SWEETBERRY_JUICE = registerItem("sweetberry_juice", new DrinkItem(new FabricItemSettings().food(ModFoodComponentsCafe.SWEETBERRY_JUICE)));

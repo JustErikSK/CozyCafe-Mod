@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:salt"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:pan"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:pretzel",
+    "count": 1
+  }
+}
