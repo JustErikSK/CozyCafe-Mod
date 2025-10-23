@@ -19,7 +19,7 @@ public class ModItemsCafe {
     public static final Item CHOCOLATE_MILK = registerItem("chocolate_milk", new DrinkItem(new FabricItemSettings().food(ModFoodComponentsCafe.CHOCOLATE_MILK)));
     public static final Item JELLY_DONUT = registerItem("jelly_donut", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.JELLY_DONUT)));
     public static final Item FRIES = registerItem("fries", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.FRIES)));
-    public static final Item GILDED_MELONADE = registerItem("gilded_melonade", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GILDED_MELONADE)));
+    public static final Item GLISTERING_MELONADE = registerItem("glistering_melonade", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GLISTERING_MELONADE)));
     public static final Item GLOWBERRY_DONUT = registerItem("glowberry_donut", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GLOWBERRY_DONUT)));
     public static final Item GLOWBERRY_ICE_CREAM = registerItem("glowberry_ice_cream", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GLOWBERRY_ICE_CREAM)));
     public static final Item GLOWBERRY_JUICE = registerItem("glowberry_juice", new DrinkItem(new FabricItemSettings().food(ModFoodComponentsCafe.GLOWBERRY_JUICE)));

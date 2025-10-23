@@ -56,7 +56,7 @@ public class ModFoodComponentsCafe {
             .snack()
             .build();
 
-    public static final FoodComponent GILDED_MELONADE = new FoodComponent.Builder()
+    public static final FoodComponent GLISTERING_MELONADE = new FoodComponent.Builder()
             .hunger(6)
             .saturationModifier(0.3f)
             .alwaysEdible()

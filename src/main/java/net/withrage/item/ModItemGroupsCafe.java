@@ -20,7 +20,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.GOLDEN_APPLE_JUICE);
                         entries.add(ModItemsCafe.ENCHANTED_GOLDEN_APPLE_JUICE);
                         entries.add(ModItemsCafe.MELONADE);
-                        entries.add(ModItemsCafe.GILDED_MELONADE);
+                        entries.add(ModItemsCafe.GLISTERING_MELONADE);
                         entries.add(ModItemsCafe.JELLY_DONUT);
                         entries.add(ModItemsCafe.SUGAR_DONUT);
                         entries.add(ModItemsCafe.GLOWBERRY_DONUT);

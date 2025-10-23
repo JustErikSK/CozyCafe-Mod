@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "cozycafe:item/gilded_melonade"
+    "layer0": "cozycafe:item/glistering_melonade"
   }
 }

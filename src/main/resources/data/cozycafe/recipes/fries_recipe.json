@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:raw_fries"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:pan"
+    },
+    {
+      "item": "cozyingredients:salt"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:fries",
+    "count": 1
+  }
+}
