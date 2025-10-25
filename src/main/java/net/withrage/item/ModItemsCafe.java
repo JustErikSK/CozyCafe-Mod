@@ -49,13 +49,12 @@ public class ModItemsCafe {
     public static final Item BROWNIE = registerItem("brownie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
     public static final Item WAFFLE_WITH_CHOCOLATE_SYRUP = registerItem("waffle_with_chocolate_syrup", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.WAFFLE_WITH_CHOCOLATE_SYRUP)));
     public static final Item WAFFLE_WITH_FRUIT_SYRUP = registerItem("waffle_with_fruit_syrup", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.WAFFLE_WITH_FRUIT_SYRUP)));
-    // change food components for jelly in the next commit
-    public static final Item BLUE_JELLY = registerItem("blue_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
-    public static final Item GREEN_JELLY = registerItem("green_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
-    public static final Item ORANGE_JELLY = registerItem("orange_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
-    public static final Item PINK_JELLY = registerItem("pink_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
-    public static final Item PURPLE_JELLY = registerItem("purple_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
-    public static final Item YELLOW_JELLY = registerItem("yellow_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BROWNIE)));
+    public static final Item BLUE_JELLY = registerItem("blue_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BLUE_JELLY)));
+    public static final Item GREEN_JELLY = registerItem("green_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.GREEN_JELLY)));
+    public static final Item ORANGE_JELLY = registerItem("orange_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.ORANGE_JELLY)));
+    public static final Item PINK_JELLY = registerItem("pink_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PINK_JELLY)));
+    public static final Item PURPLE_JELLY = registerItem("purple_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PURPLE_JELLY)));
+    public static final Item YELLOW_JELLY = registerItem("yellow_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.YELLOW_JELLY)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);

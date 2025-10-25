@@ -162,61 +162,63 @@ public class ModFoodComponentsCafe {
             .saturationModifier(0.4f)
             .build();
 
-    // Below are new items, modifiers will be changed later
-
     public static final FoodComponent BOLOGNA_AND_CREAM_CHEESE_TOAST = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent BREAKFAST_BURGER = new FoodComponent.Builder()
-            .hunger(7)
+            .hunger(8)
             .saturationModifier(0.4f)
             .build();
 
     public static final FoodComponent BUTTER_COOKIE = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.4f)
+            .hunger(4)
+            .saturationModifier(0.2f)
+            .snack()
             .build();
 
     public static final FoodComponent EGG_TOAST = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent ENCHANTED_GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(0.4f)
+            .alwaysEdible()
             .build();
 
     public static final FoodComponent GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(0.4f)
+            .alwaysEdible()
             .build();
 
     public static final FoodComponent HAM_AND_CHEESE_SANDWICH = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.4f)
+            .hunger(9)
+            .saturationModifier(0.5f)
             .build();
 
     public static final FoodComponent NUHTELLA_TOAST = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent TOAST_WITH_BUTTER = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent TOAST_WITH_JAM = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.4f)
+            .saturationModifier(0.3f)
             .build();
 
     public static final FoodComponent BROWNIE = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.4f)
+            .hunger(5)
+            .saturationModifier(0.2f)
+            .snack()
             .build();
 
     public static final FoodComponent WAFFLE_WITH_CHOCOLATE_SYRUP = new FoodComponent.Builder()
@@ -227,5 +229,41 @@ public class ModFoodComponentsCafe {
     public static final FoodComponent WAFFLE_WITH_FRUIT_SYRUP = new FoodComponent.Builder()
             .hunger(7)
             .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent BLUE_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
+            .build();
+
+    public static final FoodComponent GREEN_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
+            .build();
+
+    public static final FoodComponent ORANGE_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
+            .build();
+
+    public static final FoodComponent PINK_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
+            .build();
+
+    public static final FoodComponent PURPLE_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
+            .build();
+
+    public static final FoodComponent YELLOW_JELLY = new FoodComponent.Builder()
+            .hunger(3)
+            .saturationModifier(0.1f)
+            .snack()
             .build();
 }
