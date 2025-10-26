@@ -3,7 +3,7 @@
 	"id": "cozycafe",
 	"version": "${version}",
 	"name": "Cozy Café",
-	"description": "Cozy Café adds a variety of café-themed treats like lemonades, ice cream, sandwiches, donuts, and more!\nRequires Cozy Ingredients to run.",
+	"description": "Cozy Café adds a variety of café-themed treats, and also some Restaurant fancy foods!\nRequires Cozy Ingredients to run.",
 	"authors": [
 		"JustErikSK, Satorisek, With Rage Studios"
 	],

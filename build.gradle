@@ -11,21 +11,6 @@ base {
 }
 
 repositories {
-    maven {
-        url "https://maven.shedaniel.me"
-    }
-    maven {
-        name = "Progwml6's maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
-    }
-    maven {
-        name = "Jared's maven"
-        url = "https://maven.blamejared.com/"
-    }
-    maven {
-        name = "ModMaven"
-        url = "https://modmaven.dev"
-    }
 }
 
 fabricApi {
@@ -39,10 +24,6 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:12.1.785"
-    modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:12.1.785"
-    modCompileOnlyApi("mezz.jei:jei-1.20.1-fabric-api:15.20.0.112")
-    modRuntimeOnly("mezz.jei:jei-1.20.1-fabric:15.20.0.112")
 }
 
 processResources {
