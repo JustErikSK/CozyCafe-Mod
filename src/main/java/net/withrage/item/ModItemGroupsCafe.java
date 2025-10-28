@@ -60,6 +60,8 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.PINK_JELLY);
                         entries.add(ModItemsCafe.PURPLE_JELLY);
                         entries.add(ModItemsCafe.YELLOW_JELLY);
+                        entries.add(ModItemsCafe.MARBLE_CAKE);
+                        entries.add(ModItemsCafe.CREME_BRULEE);
                         entries.add(ModItemsCafe.BEEF_RAMEN);
                         entries.add(ModItemsCafe.CHICKEN_RAMEN);
                         entries.add(ModItemsCafe.PORK_RAMEN);
@@ -68,6 +70,8 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.BACON_CHEESEBURGER);
                         entries.add(ModItemsCafe.CHEESEBURGER);
                         entries.add(ModItemsCafe.KIDS_MEAL);
+                        entries.add(ModItemsCafe.BACON_AND_EGG_PIE);
+                        entries.add(ModItemsCafe.SHEPHERDS_PIE);
                     }).build());
 
     public static void registerItemGroups() {

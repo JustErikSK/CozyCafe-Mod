@@ -53,6 +53,10 @@
   "item.cozycafe.bacon_cheeseburger": "Bacon Cheeseburger",
   "item.cozycafe.cheeseburger": "Cheeseburger",
   "item.cozycafe.kids_meal": "Kids Meal",
+  "item.cozycafe.bacon_and_egg_pie": "Bacon & Egg Pie",
+  "item.cozycafe.creme_brulee": "Crème Brûlée",
+  "item.cozycafe.marble_cake": "Marble Cake",
+  "item.cozycafe.shepherds_pie": "Shepherds Pie",
 
   "itemgroup.cozycafe":"Cozy Café"
 }
