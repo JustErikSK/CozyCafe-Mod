@@ -64,6 +64,10 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.CHICKEN_RAMEN);
                         entries.add(ModItemsCafe.PORK_RAMEN);
                         entries.add(ModItemsCafe.SEAFOOD_RAMEN);
+                        entries.add(ModItemsCafe.BACON_BURGER);
+                        entries.add(ModItemsCafe.BACON_CHEESEBURGER);
+                        entries.add(ModItemsCafe.CHEESEBURGER);
+                        entries.add(ModItemsCafe.KIDS_MEAL);
                     }).build());
 
     public static void registerItemGroups() {

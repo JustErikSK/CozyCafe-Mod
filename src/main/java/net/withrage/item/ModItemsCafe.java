@@ -60,6 +60,10 @@ public class ModItemsCafe {
     public static final Item CHICKEN_RAMEN = registerItem("chicken_ramen", new Item(new FabricItemSettings()));
     public static final Item PORK_RAMEN = registerItem("pork_ramen", new Item(new FabricItemSettings()));
     public static final Item SEAFOOD_RAMEN = registerItem("seafood_ramen", new Item(new FabricItemSettings()));
+    public static final Item BACON_BURGER = registerItem("bacon_burger", new Item(new FabricItemSettings()));
+    public static final Item BACON_CHEESEBURGER = registerItem("bacon_cheeseburger", new Item(new FabricItemSettings()));
+    public static final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings()));
+    public static final Item KIDS_MEAL = registerItem("kids_meal", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);

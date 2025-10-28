@@ -49,6 +49,10 @@
   "item.cozycafe.chicken_ramen": "Chicken Ramen",
   "item.cozycafe.pork_ramen": "Pork Ramen",
   "item.cozycafe.seafood_ramen": "Seafood Ramen",
+  "item.cozycafe.bacon_burger": "Bacon Burger",
+  "item.cozycafe.bacon_cheeseburger": "Bacon Cheeseburger",
+  "item.cozycafe.cheeseburger": "Cheeseburger",
+  "item.cozycafe.kids_meal": "Kids Meal",
 
   "itemgroup.cozycafe":"Cozy Café"
 }
