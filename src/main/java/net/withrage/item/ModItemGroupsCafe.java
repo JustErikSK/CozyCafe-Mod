@@ -60,6 +60,10 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.PINK_JELLY);
                         entries.add(ModItemsCafe.PURPLE_JELLY);
                         entries.add(ModItemsCafe.YELLOW_JELLY);
+                        entries.add(ModItemsCafe.BEEF_RAMEN);
+                        entries.add(ModItemsCafe.CHICKEN_RAMEN);
+                        entries.add(ModItemsCafe.PORK_RAMEN);
+                        entries.add(ModItemsCafe.SEAFOOD_RAMEN);
                     }).build());
 
     public static void registerItemGroups() {

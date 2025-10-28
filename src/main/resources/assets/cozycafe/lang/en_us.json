@@ -45,6 +45,10 @@
   "item.cozycafe.pink_jelly": "Pink Jelly",
   "item.cozycafe.purple_jelly": "Purple Jelly",
   "item.cozycafe.yellow_jelly": "Yellow Jelly",
+  "item.cozycafe.beef_ramen": "Beef Ramen",
+  "item.cozycafe.chicken_ramen": "Chicken Ramen",
+  "item.cozycafe.pork_ramen": "Pork Ramen",
+  "item.cozycafe.seafood_ramen": "Seafood Ramen",
 
   "itemgroup.cozycafe":"Cozy Café"
 }
