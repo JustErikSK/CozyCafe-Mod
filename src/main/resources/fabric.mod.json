@@ -26,6 +26,9 @@
 		],
 		"fabric-datagen": [
 			"net.withrage.CozyCafeDataGenerator"
+		],
+		"jei_mod_plugin": [
+			"net.withrage.compat.jei.CozyCafeJEIPlugin"
 		]
 	},
 	"mixins": [
