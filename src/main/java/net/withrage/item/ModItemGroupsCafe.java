@@ -43,7 +43,13 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.MILK_BREAD);
                         entries.add(ModItemsCafe.POT_PIE);
                         entries.add(ModItemsCafe.CHICKEN_MUSHROOM_PIE);
+                        entries.add(ModItemsCafe.BACON_AND_EGG_PIE);
+                        entries.add(ModItemsCafe.SHEPHERDS_PIE);
                         entries.add(ModItemsCafe.BREAKFAST_BURGER);
+                        entries.add(ModItemsCafe.BACON_BURGER);
+                        entries.add(ModItemsCafe.BACON_CHEESEBURGER);
+                        entries.add(ModItemsCafe.CHEESEBURGER);
+                        entries.add(ModItemsCafe.KIDS_MEAL);
                         entries.add(ModItemsCafe.TOAST_WITH_BUTTER);
                         entries.add(ModItemsCafe.TOAST_WITH_JAM);
                         entries.add(ModItemsCafe.BOLOGNA_AND_CREAM_CHEESE_TOAST);
@@ -66,12 +72,6 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.CHICKEN_RAMEN);
                         entries.add(ModItemsCafe.PORK_RAMEN);
                         entries.add(ModItemsCafe.SEAFOOD_RAMEN);
-                        entries.add(ModItemsCafe.BACON_BURGER);
-                        entries.add(ModItemsCafe.BACON_CHEESEBURGER);
-                        entries.add(ModItemsCafe.CHEESEBURGER);
-                        entries.add(ModItemsCafe.KIDS_MEAL);
-                        entries.add(ModItemsCafe.BACON_AND_EGG_PIE);
-                        entries.add(ModItemsCafe.SHEPHERDS_PIE);
                     }).build());
 
     public static void registerItemGroups() {
