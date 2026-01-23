@@ -50,14 +50,14 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.BACON_CHEESEBURGER);
                         entries.add(ModItemsCafe.CHEESEBURGER);
                         entries.add(ModItemsCafe.KIDS_MEAL);
+                        entries.add(ModItemsCafe.FRIES);
+                        entries.add(ModItemsCafe.CHIPS);
                         entries.add(ModItemsCafe.TOAST_WITH_BUTTER);
                         entries.add(ModItemsCafe.TOAST_WITH_JAM);
                         entries.add(ModItemsCafe.BOLOGNA_AND_CREAM_CHEESE_TOAST);
                         entries.add(ModItemsCafe.EGG_TOAST);
                         entries.add(ModItemsCafe.NUHTELLA_TOAST);
                         entries.add(ModItemsCafe.HAM_AND_CHEESE_SANDWICH);
-                        entries.add(ModItemsCafe.CHIPS);
-                        entries.add(ModItemsCafe.FRIES);
                         entries.add(ModItemsCafe.PRETZEL);
                         entries.add(ModItemsCafe.MERINGUE);
                         entries.add(ModItemsCafe.BLUE_JELLY);
