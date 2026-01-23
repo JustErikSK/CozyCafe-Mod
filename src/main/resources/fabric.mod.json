@@ -3,12 +3,15 @@
 	"id": "cozycafe",
 	"version": "${version}",
 	"name": "Cozy Café",
-	"description": "Cozy Café adds a variety of café-themed treats, and also some Restaurant fancy foods!\nRequires Cozy Ingredients to run.",
+	"description": "Cozy Café adds a variety of café-themed treats and restaurant-themed fancy foods!\nRequires Cozy Ingredients to run.",
 	"authors": [
-		"JustErikSK, Satorisek, With Rage Studios"
+		"JustErikSK",
+		"Satorisek",
+		"With Rage Studios"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/cozy-cafe-mod",
+		"issues": "https://github.com/JustErikSK/CozyCafe-Mod/issues",
 		"sources": "https://github.com/JustErikSK/CozyCafe-Mod"
 	},
 	"license": "MIT",
@@ -34,5 +37,8 @@
 		"java": ">=17",
 		"fabric-api": "*",
 		"cozyingredients": ">=1.0.0"
+	},
+	"suggests": {
+		"jei": "*"
 	}
 }
