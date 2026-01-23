@@ -11,6 +11,8 @@ base {
 }
 
 repositories {
+	maven { url = "https://maven.blamejared.com/" }
+	maven { url = "https://modmaven.dev" }
 }
 
 fabricApi {
@@ -24,11 +26,12 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	modCompileOnly "mezz.jei:jei-1.20.1-fabric-api:15.20.0.112"
+	modRuntimeOnly "mezz.jei:jei-1.20.1-fabric:15.20.0.112"
 }
 
 processResources {
 	inputs.property "version", project.version
-
 	filesMatching("fabric.mod.json") {
 		expand "version": inputs.properties.version
 	}
@@ -40,14 +43,12 @@ tasks.withType(JavaCompile).configureEach {
 
 java {
 	withSourcesJar()
-
 	sourceCompatibility = JavaVersion.VERSION_17
 	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
 	inputs.property "archivesName", project.base.archivesName
-
 	from("LICENSE") {
 		rename { "${it}_${inputs.properties.archivesName}"}
 	}
@@ -61,11 +62,6 @@ publishing {
 		}
 	}
 
-	// See https://docs.gradle.org/current/userguide/publishing_maven.html for information on how to set up publishing.
 	repositories {
-		// Add repositories to publish to here.
-		// Notice: This block does NOT have the same function as the block in the top level.
-		// The repositories here will be used for publishing your artifact, not for
-		// retrieving dependencies.
 	}
 }
