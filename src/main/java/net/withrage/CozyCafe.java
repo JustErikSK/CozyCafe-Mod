@@ -14,7 +14,6 @@ public class CozyCafe implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Cozy Café!");
-
 		ModItemsCafe.registerModItems();
 		ModItemGroupsCafe.registerItemGroups();
 	}
