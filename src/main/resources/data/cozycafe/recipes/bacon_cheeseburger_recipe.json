@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:burger_bun"
+    },
+    {
+      "item": "cozyingredients:cheese"
+    },
+    {
+      "tag": "cozyingredients:minced_meat"
+    },
+    {
+      "item": "cozyingredients:bacon"
+    },
+    {
+      "item": "cozyingredients:pan"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:bacon_cheeseburger",
+    "count": 2
+  }
+}

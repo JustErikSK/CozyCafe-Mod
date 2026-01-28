@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " A ",
+    "BCD",
+    "EFG"
+  ],
+  "key": {
+    "A": {
+      "item": "cozyingredients:cake_form"
+    },
+    "B": {
+      "item": "cozyingredients:cocoa_powder"
+    },
+    "C": {
+      "item": "cozyingredients:flour"
+    },
+    "D": {
+      "item": "cozyingredients:powdered_sugar"
+    },
+    "E": {
+      "item": "cozyingredients:milk_box"
+    },
+    "F": {
+      "item": "cozyingredients:butter"
+    },
+    "G": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "cozycafe:marble_cake",
+    "count": 4
+  }
+}

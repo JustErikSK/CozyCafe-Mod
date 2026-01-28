@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:ramekin"
+    },
+    {
+      "item": "cozyingredients:egg_yolks"
+    },
+    {
+      "item": "cozyingredients:powdered_sugar"
+    },
+    {
+      "item": "cozyingredients:whipped_cream"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:creme_brulee",
+    "count": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "item": "cozyingredients:raw_bacon"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "cozyingredients:salt"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:bacon_and_egg_pie",
+    "count": 2
+  }
+}

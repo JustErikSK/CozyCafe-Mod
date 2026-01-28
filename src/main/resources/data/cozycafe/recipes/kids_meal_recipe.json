@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozycafe:dino_nuggets"
+    },
+    {
+      "item": "cozycafe:cheeseburger"
+    },
+    {
+      "item": "cozycafe:fries"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:kids_meal",
+    "count": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "cozyingredients:dough"
+    },
+    {
+      "item": "cozyingredients:butter"
+    },
+    {
+      "tag": "cozyingredients:minced_meat"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "cozyingredients:salt"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:shepherds_pie",
+    "count": 2
+  }
+}
