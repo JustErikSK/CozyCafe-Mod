@@ -28,7 +28,7 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent CHIPS = new FoodComponent.Builder()
-            .hunger(6)
+            .hunger(5)
             .saturationModifier(0.4f)
             .snack()
             .build();
@@ -57,8 +57,8 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent GLISTERING_MELONADE = new FoodComponent.Builder()
-            .hunger(6)
-            .saturationModifier(0.3f)
+            .hunger(7)
+            .saturationModifier(0.4f)
             .alwaysEdible()
             .snack()
             .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 1, -1), 100)
@@ -72,13 +72,13 @@ public class ModFoodComponentsCafe {
 
     public static final FoodComponent GLOWBERRY_ICE_CREAM = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.55f)
+            .saturationModifier(0.4f)
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 1), 50)
             .build();
 
     public static final FoodComponent GLOWBERRY_JUICE = new FoodComponent.Builder()
-            .hunger(6)
-            .saturationModifier(0.3f)
+            .hunger(5)
+            .saturationModifier(0.2f)
             .alwaysEdible()
             .snack()
             .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 1), 50)
@@ -103,8 +103,8 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent MERINGUE = new FoodComponent.Builder()
-            .hunger(5)
-            .saturationModifier(0.5f)
+            .hunger(3)
+            .saturationModifier(0.2f)
             .snack()
             .build();
 
@@ -146,7 +146,7 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent SWEETBERRY_JUICE = new FoodComponent.Builder()
-            .hunger(6)
+            .hunger(5)
             .saturationModifier(0.2f)
             .alwaysEdible()
             .snack()
@@ -164,7 +164,7 @@ public class ModFoodComponentsCafe {
 
     public static final FoodComponent BOLOGNA_AND_CREAM_CHEESE_TOAST = new FoodComponent.Builder()
             .hunger(7)
-            .saturationModifier(0.3f)
+            .saturationModifier(0.4f)
             .build();
 
     public static final FoodComponent BREAKFAST_BURGER = new FoodComponent.Builder()
@@ -184,8 +184,8 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent ENCHANTED_GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
-            .hunger(7)
-            .saturationModifier(0.4f)
+            .hunger(9)
+            .saturationModifier(0.5f)
             .alwaysEdible()
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 3600, 4), 100)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 2), 100)
@@ -271,7 +271,6 @@ public class ModFoodComponentsCafe {
             .snack()
             .build();
 
-    /// /////////////////////
     public static final FoodComponent BEEF_RAMEN = new FoodComponent.Builder()
             .hunger(12)
             .saturationModifier(0.7f)
