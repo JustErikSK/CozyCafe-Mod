@@ -187,6 +187,10 @@ public class ModFoodComponentsCafe {
             .hunger(7)
             .saturationModifier(0.4f)
             .alwaysEdible()
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 3600, 4), 100)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 600, 2), 100)
+            .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 7500, 1), 100)
+            .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 7500, 1), 100)
             .build();
 
     public static final FoodComponent GOLDEN_APPLE_JUICE = new FoodComponent.Builder()
