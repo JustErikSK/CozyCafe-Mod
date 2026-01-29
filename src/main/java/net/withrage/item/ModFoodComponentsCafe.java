@@ -270,4 +270,70 @@ public class ModFoodComponentsCafe {
             .saturationModifier(0.1f)
             .snack()
             .build();
+
+    /// /////////////////////
+    public static final FoodComponent BEEF_RAMEN = new FoodComponent.Builder()
+            .hunger(12)
+            .saturationModifier(0.7f)
+            .build();
+
+    public static final FoodComponent CHICKEN_RAMEN = new FoodComponent.Builder()
+            .hunger(12)
+            .saturationModifier(0.7f)
+            .build();
+
+    public static final FoodComponent PORK_RAMEN = new FoodComponent.Builder()
+            .hunger(12)
+            .saturationModifier(0.7f)
+            .build();
+
+    public static final FoodComponent SEAFOOD_RAMEN = new FoodComponent.Builder()
+            .hunger(12)
+            .saturationModifier(0.7f)
+            .build();
+
+    public static final FoodComponent BACON_BURGER = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent BACON_CHEESEBURGER = new FoodComponent.Builder()
+            .hunger(8)
+            .saturationModifier(0.5f)
+            .build();
+
+    public static final FoodComponent CHEESEBURGER = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.4f)
+            .build();
+
+    public static final FoodComponent KIDS_MEAL = new FoodComponent.Builder()
+            .hunger(6)
+            .saturationModifier(0.3f)
+            .snack()
+            .build();
+
+    public static final FoodComponent BACON_AND_EGG_PIE = new FoodComponent.Builder()
+            .hunger(10)
+            .saturationModifier(0.6f)
+            .snack()
+            .build();
+
+    public static final FoodComponent CREME_BRULEE = new FoodComponent.Builder()
+            .hunger(4)
+            .saturationModifier(0.2f)
+            .snack()
+            .build();
+
+    public static final FoodComponent MARBLE_CAKE = new FoodComponent.Builder()
+            .hunger(4)
+            .saturationModifier(0.3f)
+            .snack()
+            .build();
+
+    public static final FoodComponent SHEPHERDS_PIE = new FoodComponent.Builder()
+            .hunger(10)
+            .saturationModifier(0.7f)
+            .snack()
+            .build();
 }

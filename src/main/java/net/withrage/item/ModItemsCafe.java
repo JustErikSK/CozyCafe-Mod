@@ -55,19 +55,18 @@ public class ModItemsCafe {
     public static final Item PINK_JELLY = registerItem("pink_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PINK_JELLY)));
     public static final Item PURPLE_JELLY = registerItem("purple_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PURPLE_JELLY)));
     public static final Item YELLOW_JELLY = registerItem("yellow_jelly", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.YELLOW_JELLY)));
-    // add food components later
-    public static final Item BEEF_RAMEN = registerItem("beef_ramen", new Item(new FabricItemSettings()));
-    public static final Item CHICKEN_RAMEN = registerItem("chicken_ramen", new Item(new FabricItemSettings()));
-    public static final Item PORK_RAMEN = registerItem("pork_ramen", new Item(new FabricItemSettings()));
-    public static final Item SEAFOOD_RAMEN = registerItem("seafood_ramen", new Item(new FabricItemSettings()));
-    public static final Item BACON_BURGER = registerItem("bacon_burger", new Item(new FabricItemSettings()));
-    public static final Item BACON_CHEESEBURGER = registerItem("bacon_cheeseburger", new Item(new FabricItemSettings()));
-    public static final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings()));
-    public static final Item KIDS_MEAL = registerItem("kids_meal", new Item(new FabricItemSettings()));
-    public static final Item BACON_AND_EGG_PIE = registerItem("bacon_and_egg_pie", new Item(new FabricItemSettings()));
-    public static final Item CREME_BRULEE = registerItem("creme_brulee", new Item(new FabricItemSettings()));
-    public static final Item MARBLE_CAKE = registerItem("marble_cake", new Item(new FabricItemSettings()));
-    public static final Item SHEPHERDS_PIE = registerItem("shepherds_pie", new Item(new FabricItemSettings()));
+    public static final Item BEEF_RAMEN = registerItem("beef_ramen", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BEEF_RAMEN)));
+    public static final Item CHICKEN_RAMEN = registerItem("chicken_ramen", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.CHICKEN_RAMEN)));
+    public static final Item PORK_RAMEN = registerItem("pork_ramen", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PORK_RAMEN)));
+    public static final Item SEAFOOD_RAMEN = registerItem("seafood_ramen", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SEAFOOD_RAMEN)));
+    public static final Item BACON_BURGER = registerItem("bacon_burger", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BACON_BURGER)));
+    public static final Item BACON_CHEESEBURGER = registerItem("bacon_cheeseburger", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BACON_CHEESEBURGER)));
+    public static final Item CHEESEBURGER = registerItem("cheeseburger", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.CHEESEBURGER)));
+    public static final Item KIDS_MEAL = registerItem("kids_meal", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.KIDS_MEAL)));
+    public static final Item BACON_AND_EGG_PIE = registerItem("bacon_and_egg_pie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.BACON_AND_EGG_PIE)));
+    public static final Item CREME_BRULEE = registerItem("creme_brulee", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.CREME_BRULEE)));
+    public static final Item MARBLE_CAKE = registerItem("marble_cake", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.MARBLE_CAKE)));
+    public static final Item SHEPHERDS_PIE = registerItem("shepherds_pie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SHEPHERDS_PIE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);
