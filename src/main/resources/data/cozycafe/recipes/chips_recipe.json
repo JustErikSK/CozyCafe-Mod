@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "cozycafe:item_preserving_shapeless",
   "category": "food",
   "ingredients": [
     {

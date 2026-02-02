@@ -1,9 +1,9 @@
 package net.withrage;
 
 import net.fabricmc.api.ModInitializer;
-
 import net.withrage.item.ModItemGroupsCafe;
 import net.withrage.item.ModItemsCafe;
+import net.withrage.recipe.ModRecipesCafe;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,5 +16,6 @@ public class CozyCafe implements ModInitializer {
 		LOGGER.info("Initializing Cozy Café!");
 		ModItemsCafe.registerModItems();
 		ModItemGroupsCafe.registerItemGroups();
+		ModRecipesCafe.registerModRecipes();
 	}
 }
