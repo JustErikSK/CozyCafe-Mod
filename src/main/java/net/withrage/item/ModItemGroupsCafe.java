@@ -50,6 +50,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.BACON_CHEESEBURGER);
                         entries.add(ModItemsCafe.CHEESEBURGER);
                         entries.add(ModItemsCafe.KIDS_MEAL);
+                        entries.add(ModItemsCafe.DINO_NUGGETS);
                         entries.add(ModItemsCafe.FRIES);
                         entries.add(ModItemsCafe.CHIPS);
                         entries.add(ModItemsCafe.TOAST_WITH_BUTTER);
@@ -60,6 +61,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.HAM_AND_CHEESE_SANDWICH);
                         entries.add(ModItemsCafe.PRETZEL);
                         entries.add(ModItemsCafe.MERINGUE);
+                        entries.add(ModItemsCafe.PAVLOVA);
                         entries.add(ModItemsCafe.BLUE_JELLY);
                         entries.add(ModItemsCafe.GREEN_JELLY);
                         entries.add(ModItemsCafe.ORANGE_JELLY);
@@ -68,6 +70,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.YELLOW_JELLY);
                         entries.add(ModItemsCafe.MARBLE_CAKE);
                         entries.add(ModItemsCafe.CREME_BRULEE);
+                        entries.add(ModItemsCafe.VEGGIE_RAMEN);
                         entries.add(ModItemsCafe.BEEF_RAMEN);
                         entries.add(ModItemsCafe.CHICKEN_RAMEN);
                         entries.add(ModItemsCafe.PORK_RAMEN);

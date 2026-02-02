@@ -51,7 +51,7 @@ public class ModFoodComponentsCafe {
             .build();
 
     public static final FoodComponent FRIES = new FoodComponent.Builder()
-            .hunger(8)
+            .hunger(6)
             .saturationModifier(0.5f)
             .snack()
             .build();
@@ -309,30 +309,40 @@ public class ModFoodComponentsCafe {
     public static final FoodComponent KIDS_MEAL = new FoodComponent.Builder()
             .hunger(6)
             .saturationModifier(0.3f)
-            .snack()
             .build();
 
     public static final FoodComponent BACON_AND_EGG_PIE = new FoodComponent.Builder()
             .hunger(10)
             .saturationModifier(0.6f)
-            .snack()
             .build();
 
     public static final FoodComponent CREME_BRULEE = new FoodComponent.Builder()
             .hunger(4)
             .saturationModifier(0.2f)
-            .snack()
             .build();
 
     public static final FoodComponent MARBLE_CAKE = new FoodComponent.Builder()
             .hunger(4)
             .saturationModifier(0.3f)
-            .snack()
             .build();
 
     public static final FoodComponent SHEPHERDS_PIE = new FoodComponent.Builder()
             .hunger(10)
             .saturationModifier(0.7f)
-            .snack()
+            .build();
+
+    public static final FoodComponent VEGGIE_RAMEN = new FoodComponent.Builder()
+            .hunger(12)
+            .saturationModifier(0.7f)
+            .build();
+
+    public static final FoodComponent PAVLOVA = new FoodComponent.Builder()
+            .hunger(4)
+            .saturationModifier(0.3f)
+            .build();
+
+    public static final FoodComponent DINO_NUGGETS = new FoodComponent.Builder()
+            .hunger(7)
+            .saturationModifier(0.5f)
             .build();
 }

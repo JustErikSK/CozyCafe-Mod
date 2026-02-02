@@ -67,6 +67,9 @@ public class ModItemsCafe {
     public static final Item CREME_BRULEE = registerItem("creme_brulee", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.CREME_BRULEE)));
     public static final Item MARBLE_CAKE = registerItem("marble_cake", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.MARBLE_CAKE)));
     public static final Item SHEPHERDS_PIE = registerItem("shepherds_pie", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.SHEPHERDS_PIE)));
+    public static final Item DINO_NUGGETS = registerItem("dino_nuggets", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.DINO_NUGGETS)));
+    public static final Item PAVLOVA = registerItem("pavlova", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.PAVLOVA)));
+    public static final Item VEGGIE_RAMEN = registerItem("veggie_ramen", new Item(new FabricItemSettings().food(ModFoodComponentsCafe.VEGGIE_RAMEN)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CozyCafe.MOD_ID, name), item);

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "cozyingredients:powdered_sugar"
+    },
+    {
+      "item": "cozycafe:meringue"
+    }
+  ],
+  "result": {
+    "item": "cozycafe:pavlova",
+    "count": 2
+  }
+}
