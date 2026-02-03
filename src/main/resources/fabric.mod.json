@@ -15,7 +15,7 @@
 		"sources": "https://github.com/JustErikSK/CozyCafe-Mod"
 	},
 	"license": "MIT",
-	"icon": "assets/cozycafe/cozycafe_mod-icon.png",
+	"icon": "assets/cozycafe/cozycafe-icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
