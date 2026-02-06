@@ -62,6 +62,7 @@ public class ModItemGroupsCafe {
                         entries.add(ModItemsCafe.PRETZEL);
                         entries.add(ModItemsCafe.MERINGUE);
                         entries.add(ModItemsCafe.PAVLOVA);
+                        entries.add(ModItemsCafe.CHOCOLATE_BAR);
                         entries.add(ModItemsCafe.BLUE_JELLY);
                         entries.add(ModItemsCafe.GREEN_JELLY);
                         entries.add(ModItemsCafe.ORANGE_JELLY);

@@ -345,4 +345,10 @@ public class ModFoodComponentsCafe {
             .hunger(7)
             .saturationModifier(0.5f)
             .build();
+
+    public static final FoodComponent CHOCOLATE_BAR = new FoodComponent.Builder()
+            .hunger(5)
+            .saturationModifier(0.2f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 360, 1), 25)
+            .build();
 }
